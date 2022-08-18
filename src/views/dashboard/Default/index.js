@@ -6,7 +6,7 @@ import { Grid } from '@mui/material';
 
 // project imports
 import EarningCard from './EarningCard';
-import DataTable from './dataTable';
+import Datatable from './dataTable';
 import TotalOrderLineChartCard from './TotalOrderLineChartCard';
 import TotalIncomeDarkCard from './TotalIncomeDarkCard';
 import TotalIncomeLightCard from './TotalIncomeLightCard';
@@ -45,7 +45,7 @@ const Dashboard = () => {
             <Grid item xs={12}>
                 <Grid container spacing={gridSpacing}>
                     <Grid item lg={12} md={12} xl={12} xs={12}>
-                        <DataTable />
+                        <Datatable />
                     </Grid>
                 </Grid>
             </Grid>
